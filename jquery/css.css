@@ -1,0 +1,128 @@
+/* Ogólne stylowanie */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #e2efd9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#header .logo {
+    width: 150px;
+    height: auto;
+}
+
+#pokazBaner {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pokazBaner:hover {
+    background-color: #0056b3;
+}
+
+#baner {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#nav {
+    background-color: #c5e0b3;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    height: 400px;
+}
+
+#programy ul {
+    list-style: none;
+    padding: 0;
+}
+
+#programy li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#article {
+    background-color: #a8d08d;
+    width: 70%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#article table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#article img {
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+}
+
+#przyciski button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#przyciski button:hover {
+    background-color: #388E3C;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #e2efd9;
+    border-top: 1px solid black;
+    position: relative;
+    height: 100px;
+}
+
+#zmienKolor {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#zmienKolor:hover {
+    background-color: #0056b3;
+}

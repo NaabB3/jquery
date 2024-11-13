@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="css.css" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="corel.png" alt="Corel Draw" class="logo" />
+            <img src="ai.png" alt="Adobe Illustrator" class="logo" />
+            <img src="affinityd.png" alt="Affinity Designer" class="logo" />
+            <img src="inkscape.png" alt="Inkscape" class="logo" />
+            <button id="pokazBaner">Pokaż/Ukryj</button>
+        </div>
+        <!-- Sekcja Banera -->
+        <div id="baner">To jest baner</div>
+
+        <!-- Sekcja Nawigacji -->
+        <div id="nav">
+            <label for="grafika">Grafika:</label>
+            <select id="grafika">
+                <option value="" selected disabled>Wybierz typ grafiki</option>
+                <option value="wektorowa">Grafika wektorowa</option>
+                <option value="rastrowa">Grafika rastrowa</option>
+            </select>
+            <div id="programy">
+                <div id="wektorowa" class="program" style="display: none;">
+                    <ul>
+                        <li>Inkscape</li>
+                        <li>Corel Draw</li>
+                    </ul>
+                </div>
+                <div id="rastrowa" class="program" style="display: none;">
+                    <ul>
+                        <li>Adobe Photoshop</li>
+                        <li>GIMP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="article">
+            <table>
+                <tr>
+                    <td><img src="photoshop.png" alt="Photoshop" id="zdjecie1"></td>
+                    <td><img src="corel2.jpg" alt="Corel Draw" id="zdjecie2"></td>
+                </tr>
+            </table>
+            <div id="przyciski">
+                <button id="zwij">Zwiń</button>
+                <button id="rozwin">Rozwiń</button>
+            </div>
+        </div>
+
+        <!-- Sekcja Stopki -->
+        <div id="footer">
+            <p>Autor: Jan Kowalski</p>
+            <button id="zmienKolor">Zmień kolor</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
